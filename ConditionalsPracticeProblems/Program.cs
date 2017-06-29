@@ -162,6 +162,28 @@ namespace ConditionalsPracticeProblems
                     Console.WriteLine("Error: you did not enter an appropriate letter. Please try again.");
                     break;
             }
+
+            //Problem 5
+            //set the values for the problem
+            double numberOne;
+            double numberTwo;
+            //tell user what to expect
+            //have user enter required data           
+            Console.WriteLine("Please enter two numbers to find out which number has the greatest value.");
+            Console.WriteLine("Enter your first number ");
+            numberOne = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter your second number ");
+            numberTwo = int.Parse(Console.ReadLine());
+            //solve problem using calculation and print answer
+            if (numberOne > numberTwo)
+            {
+                Console.WriteLine(+ numberOne + " is the bigger number");
+            }
+            else
+            {
+                Console.WriteLine(+ numberTwo + " is the bigger number");
+            }
         }
 
     }
