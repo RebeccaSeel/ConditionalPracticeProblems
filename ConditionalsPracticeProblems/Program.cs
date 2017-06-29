@@ -71,6 +71,97 @@ namespace ConditionalsPracticeProblems
                 Console.WriteLine("O is neither positive or negative but is considered to be non-negative.");
             }
 
+
+            //Problem 4
+            //get user input for problem
+            Console.WriteLine("Type a letter to check if it is a vowel or consonant");
+            //set case statements to print answer based on user input
+            //prepare error message to print if user does not provide correct data type
+            string letter = Console.ReadLine();
+            switch (letter)
+            {
+                case "a":
+                    Console.WriteLine("The letter a is a vowel");
+                    break;
+                case "b":
+                    Console.WriteLine("The letter b is a consonant");
+                    break;
+                case "c":
+                    Console.WriteLine("The letter c is a consonant");
+                    break;
+                case "d":
+                    Console.WriteLine("The letter d is a consonant");
+                    break;
+                case "e":
+                    Console.WriteLine("The letter e is a vowel");
+                    break;
+                case "f":
+                    Console.WriteLine("The letter f is a consonant");
+                    break;
+                case "g":
+                    Console.WriteLine("The letter g is a consonant");
+                    break;
+                case "h":
+                    Console.WriteLine("The letter h is a consonant");
+                    break;
+                case "i":
+                    Console.WriteLine("The letter i is a vowel");
+                    break;
+                case "j":
+                    Console.WriteLine("The letter j is a consonant");
+                    break;
+                case "k":
+                    Console.WriteLine("The letter k is a consonant");
+                    break;
+                case "l":
+                    Console.WriteLine("The letter l is a consonant");
+                    break;
+                case "m":
+                    Console.WriteLine("The letter m is a consonant");
+                    break;
+                case "n":
+                    Console.WriteLine("The letter n is a consonant");
+                    break;
+                case "o":
+                    Console.WriteLine("The letter o is a vowel");
+                    break;
+                case "p":
+                    Console.WriteLine("The letter p is a consonant");
+                    break;
+                case "q":
+                    Console.WriteLine("The letter q is a vowel");
+                    break;
+                case "r":
+                    Console.WriteLine("The letter r is a consonant");
+                    break;
+                case "s":
+                    Console.WriteLine("The letter s is a consonant");
+                    break;
+                case "t":
+                    Console.WriteLine("The letter t is a consonant");
+                    break;
+                case "u":
+                    Console.WriteLine("The letter u is a vowel");
+                    break;
+                case "v":
+                    Console.WriteLine("The letter v is a consonant");
+                    break;
+                case "w":
+                    Console.WriteLine("The letter w is a consonant");
+                    break;
+                case "x":
+                    Console.WriteLine("The letter x is a consonant");
+                    break;
+                case "y":
+                    Console.WriteLine("The letter y is a consonant");
+                    break;
+                case "z":
+                    Console.WriteLine("The letter z is a consonant");
+                    break;
+                default:
+                    Console.WriteLine("Error: you did not enter an appropriate letter. Please try again.");
+                    break;
+            }
         }
 
     }
