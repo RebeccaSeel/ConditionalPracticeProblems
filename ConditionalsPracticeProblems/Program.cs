@@ -283,7 +283,7 @@ namespace ConditionalsPracticeProblems
             //{
             //    Console.WriteLine("The value " + usrNumber + " is a negative number");
             //}
-          
+
 
 
 
@@ -293,35 +293,52 @@ namespace ConditionalsPracticeProblems
             //Write a console application to ask the user for a number; 
             //if it is not zero, then it will ask for a second number and display their product; otherwise, it will display "0". 
 
-
-
-
+            //set the variables for the problem
+            double userNumber1;
+            double userNumber2;
+            //ask the user to type two numbers
+            Console.WriteLine("Please enter two numbers you want to multiply.");
+            Console.WriteLine("Please enter your first number: ");
+            userNumber1 = int.Parse(Console.ReadLine());
+            
+            //create calculation to solve problem and print answer for user
+            if (userNumber1 != 0)
+            {
+                Console.WriteLine("Please enter your second number: ");
+                userNumber2 = int.Parse(Console.ReadLine());
+                Console.WriteLine(userNumber1 * userNumber2);
+            }
+            else
+            {
+                Console.WriteLine("0");
+            }
+            
 
             //6.29.2017 - Extra Problem 3
             //Write a console application to ask the user for two numbers, 
             //and show their division if the second number is not zero; otherwise, it will print "I cannot divide"
 
-            //set the values for the problem
-            double numberOne;
-            double numberTwo;
-            //tell user what to expect
-            //have user enter required data           
-            Console.WriteLine("Please enter two numbers you want to divide.");
-            Console.WriteLine("Enter your first number ");
-            numberOne = int.Parse(Console.ReadLine());
+            ////set the values for the problem
+            //double numberOne;
+            //double numberTwo;
+            ////tell user what to expect
+            ////have user enter required data           
+            //Console.WriteLine("Please enter two numbers you want to divide.");
+            //Console.WriteLine("Enter your first number ");
+            //numberOne = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter your second number ");
-            numberTwo = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Enter your second number ");
+            //numberTwo = int.Parse(Console.ReadLine());
             
-            //solve problem using calculation and print answer
-            if (numberTwo <= 0 || numberTwo >= 0)
-            {
-                Console.WriteLine(+numberOne + " divided by " + numberTwo + " = " + (numberOne / numberTwo));
-            }
-            else
-            {
-                Console.WriteLine("I cannot divide");
-            }
+            ////solve problem using calculation and print answer
+            //if (numberTwo <= 0 || numberTwo >= 0)
+            //{
+            //    Console.WriteLine(+numberOne + " divided by " + numberTwo + " = " + (numberOne / numberTwo));
+            //}
+            //else
+            //{
+            //    Console.WriteLine("I cannot divide");
+            //}
             
 
             //6.29.2017 - Extra Problem 4
