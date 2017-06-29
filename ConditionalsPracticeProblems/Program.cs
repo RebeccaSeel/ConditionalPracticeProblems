@@ -269,50 +269,46 @@ namespace ConditionalsPracticeProblems
             //6.29.2017 - Extra Problem 1
             //Write a console application to get a number from the user and print whether it is positive or negative.
 
-            ////set variable
-            //int userNumber;
-            ////ask user to input number
-            //Console.WriteLine("Please type a number here: ");
-            //userNumber = int.Parse(Console.ReadLine());
-            ////determine if number is positive being greater than zero or negative by being less than zero and print answer
-            //if (userNumber > 0)
-            //{
-            //    Console.WriteLine("The value " + usrNumber + " is a positive number");
-            //}
-            //else 
-            //{
-            //    Console.WriteLine("The value " + usrNumber + " is a negative number");
-            //}
+            //set variable
+            int userNumber;
+            //ask user to input number
+            Console.WriteLine("Please type a number here: ");
+            userNumber = int.Parse(Console.ReadLine());
+            //determine if number is positive being greater than zero or negative by being less than zero and print answer
+            if (userNumber > 0)
+            {
+                Console.WriteLine("The value " + userNumber + " is a positive number");
+            }
+            else
+            {
+                Console.WriteLine("The value " + userNumber + " is a negative number");
+            }
 
-
-
-
-
-
+            
             //6.29.2017 - Extra Problem 2
             //Write a console application to ask the user for a number; 
             //if it is not zero, then it will ask for a second number and display their product; otherwise, it will display "0". 
 
             //set the variables for the problem
-            double userNumber1;
-            double userNumber2;
-            //ask the user to type two numbers
-            Console.WriteLine("Please enter two numbers you want to multiply.");
-            Console.WriteLine("Please enter your first number: ");
-            userNumber1 = int.Parse(Console.ReadLine());
-            
-            //create calculation to solve problem and print answer for user
-            if (userNumber1 != 0)
-            {
-                Console.WriteLine("Please enter your second number: ");
-                userNumber2 = int.Parse(Console.ReadLine());
-                Console.WriteLine(userNumber1 * userNumber2);
-            }
-            else
-            {
-                Console.WriteLine("0");
-            }
-            
+            //double userNumber1;
+            //double userNumber2;
+            ////ask the user to type two numbers
+            //Console.WriteLine("Please enter two numbers you want to multiply.");
+            //Console.WriteLine("Please enter your first number: ");
+            //userNumber1 = int.Parse(Console.ReadLine());
+
+            ////create calculation to solve problem and print answer for user
+            //if (userNumber1 != 0)
+            //{
+            //    Console.WriteLine("Please enter your second number: ");
+            //    userNumber2 = int.Parse(Console.ReadLine());
+            //    Console.WriteLine(userNumber1 * userNumber2);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("0");
+            //}
+
 
             //6.29.2017 - Extra Problem 3
             //Write a console application to ask the user for two numbers, 
@@ -329,7 +325,7 @@ namespace ConditionalsPracticeProblems
 
             //Console.WriteLine("Enter your second number ");
             //numberTwo = int.Parse(Console.ReadLine());
-            
+
             ////solve problem using calculation and print answer
             //if (numberTwo <= 0 || numberTwo >= 0)
             //{
@@ -339,7 +335,7 @@ namespace ConditionalsPracticeProblems
             //{
             //    Console.WriteLine("I cannot divide");
             //}
-            
+
 
             //6.29.2017 - Extra Problem 4
             //Write a console application to get three numbers from the user and print the greatest one.
