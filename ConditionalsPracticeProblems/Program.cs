@@ -44,11 +44,11 @@ namespace ConditionalsPracticeProblems
             //write calculation to determine if number is divisible by 2
             if (userNumber % 2 == 0)
             {
-                Console.WriteLine(+userNumber + "is an even number");
+                Console.WriteLine(+ userNumber + "is an even number");
             }
             else
             {
-                Console.WriteLine(+userNumber + " is an odd number");
+                Console.WriteLine(+ userNumber + " is an odd number");
             }
 
             //Problem 3
@@ -184,7 +184,34 @@ namespace ConditionalsPracticeProblems
             {
                 Console.WriteLine(+ numberTwo + " is the bigger number");
             }
+
+            //Problem 6
+            //set the values for the problem
+            double frstNumber;
+            double scondNumber;
+            double thirdNumber;
+            double fourthNumber;
+
+            //tell user what to expect
+            //have user enter required data           
+            Console.WriteLine("Please enter four numbers to find out the mean for those numbers.");
+            Console.WriteLine("Enter your first number ");
+            frstNumber = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter your second number ");
+            scondNumber = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter your third number ");
+            thirdNumber = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter your fourth number ");
+            fourthNumber = int.Parse(Console.ReadLine());
+
+            //solve problem using calculation and print answer
+            //this is messy and needs to be rewritten in a simpler manner
+            Console.WriteLine("The mean for the numbers you entered is " + ((frstNumber + scondNumber + thirdNumber + fourthNumber) / 4));
         }
+    }
 
     }
-}
+
