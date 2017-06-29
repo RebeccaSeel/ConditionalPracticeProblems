@@ -10,6 +10,7 @@ namespace ConditionalsPracticeProblems
     {
         static void Main(string[] args)
         {
+            //Problem 1
             //set values for problem
             double firstNumber;
             double secondNumber;
@@ -31,6 +32,26 @@ namespace ConditionalsPracticeProblems
             {
                 Console.WriteLine("The numbers " + firstNumber + " and " + secondNumber + " are not equal to each other");
             }
+
+            //Problem 2
+            //set values for variable
+            int userNumber;
+
+            //ask user to enter a whole number
+            Console.WriteLine("Please enter a whole number here: ");
+            userNumber = int.Parse(Console.ReadLine());
+
+            //write calculation to determine if number is divisible by 2
+            if (userNumber % 2 == 0)
+            {
+                Console.WriteLine(+userNumber + "is an even number");
+            }
+            else
+            {
+                Console.WriteLine(+userNumber + " is an odd number");
+            }
+
         }
+
     }
 }
