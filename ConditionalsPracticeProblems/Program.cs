@@ -269,6 +269,24 @@ namespace ConditionalsPracticeProblems
             //6.29.2017 - Extra Problem 1
             //Write a console application to get a number from the user and print whether it is positive or negative.
 
+            ////set variable
+            //int userNumber;
+            ////ask user to input number
+            //Console.WriteLine("Please type a number here: ");
+            //userNumber = int.Parse(Console.ReadLine());
+            ////determine if number is positive being greater than zero or negative by being less than zero and print answer
+            //if (userNumber > 0)
+            //{
+            //    Console.WriteLine("The value " + usrNumber + " is a positive number");
+            //}
+            //else 
+            //{
+            //    Console.WriteLine("The value " + usrNumber + " is a negative number");
+            //}
+          
+
+
+
 
 
             //6.29.2017 - Extra Problem 2
@@ -277,46 +295,67 @@ namespace ConditionalsPracticeProblems
 
 
 
+
+
             //6.29.2017 - Extra Problem 3
             //Write a console application to ask the user for two numbers, 
             //and show their division if the second number is not zero; otherwise, it will print "I cannot divide"
 
-
-
-
-
-            //6.29.2017 - Extra Problem 4
-            //Write a console application to get three numbers from the user and print the greatest one.
-
             //set the values for the problem
             double numberOne;
             double numberTwo;
-            double numberThree;
             //tell user what to expect
             //have user enter required data           
-            Console.WriteLine("Please enter three numbers to find out which number has the greatest value.");
+            Console.WriteLine("Please enter two numbers you want to divide.");
             Console.WriteLine("Enter your first number ");
             numberOne = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Enter your second number ");
             numberTwo = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Enter your third number ");
-            numberThree = int.Parse(Console.ReadLine());
-
+            
             //solve problem using calculation and print answer
-            if (numberOne > numberTwo && numberOne > numberThree)
+            if (numberTwo <= 0 || numberTwo >= 0)
             {
-                Console.WriteLine(+numberOne + " has the greatest value");
-            }
-            else if (numberTwo > numberOne && numberTwo > numberThree)
-            {
-                Console.WriteLine(+numberTwo + " has the greatest value");
+                Console.WriteLine(+numberOne + " divided by " + numberTwo + " = " + (numberOne / numberTwo));
             }
             else
             {
-                Console.WriteLine(+numberThree + " has the greatest value");
+                Console.WriteLine("I cannot divide");
             }
+            
+
+            //6.29.2017 - Extra Problem 4
+            //Write a console application to get three numbers from the user and print the greatest one.
+
+            ////set the values for the problem
+            //double numberOne;
+            //double numberTwo;
+            //double numberThree;
+            ////tell user what to expect
+            ////have user enter required data           
+            //Console.WriteLine("Please enter three numbers to find out which number has the greatest value.");
+            //Console.WriteLine("Enter your first number ");
+            //numberOne = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your second number ");
+            //numberTwo = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine("Enter your third number ");
+            //numberThree = int.Parse(Console.ReadLine());
+
+            ////solve problem using calculation and print answer
+            //if (numberOne > numberTwo && numberOne > numberThree)
+            //{
+            //    Console.WriteLine(+numberOne + " has the greatest value");
+            //}
+            //else if (numberTwo > numberOne && numberTwo > numberThree)
+            //{
+            //    Console.WriteLine(+numberTwo + " has the greatest value");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(+numberThree + " has the greatest value");
+            //}
         }
 
     }
