@@ -51,6 +51,26 @@ namespace ConditionalsPracticeProblems
                 Console.WriteLine(+userNumber + " is an odd number");
             }
 
+            //Problem 3
+            //set variable
+            int usrNumber;
+            //ask user to input number
+            Console.WriteLine("Please type a number here: ");
+            usrNumber = int.Parse(Console.ReadLine());
+            //determine if number is positive being greater than zero or negative by being less than zero and print answer
+            if (usrNumber > 0)
+            {
+                Console.WriteLine("The value " + usrNumber + " is a positive number");
+            }
+            else if (usrNumber < 0)
+            {
+                Console.WriteLine("The value " + usrNumber + " is a negative number");
+            }
+            else if (usrNumber == 0)
+            {
+                Console.WriteLine("O is neither positive or negative but is considered to be non-negative.");
+            }
+
         }
 
     }
